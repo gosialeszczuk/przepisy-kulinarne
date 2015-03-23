@@ -18,6 +18,13 @@ class DefaultController extends Controller
     /*
      *K1
      */
+    /**
+    * @Route("/kawa-mrozona.html", name="kawa-mrozona")
+    */
+    public function kawaMrozonaAction()
+    {
+        return $this->render('default/kawa-mrozona.html.twig');
+    }
     /*
      * G1
      */
