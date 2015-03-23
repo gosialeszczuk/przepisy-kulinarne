@@ -16,6 +16,9 @@ class DefaultController extends Controller
         return $this->render('default/index.html.twig');
     }
     /*
+     *K1
+     */
+    /*
      * G1
      */
     /*
