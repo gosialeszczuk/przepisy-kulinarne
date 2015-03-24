@@ -46,6 +46,13 @@ class DefaultController extends Controller
     /*
      * A1
      */
+    /**
+    * @Route("/ananas-pikantny.html", name="ananas-pikantny")
+    */
+    public function ananasPikantnyAction()
+    {
+        return $this->render('default/ananas-pikantny.html.twig');
+    }
     /*
      * A2
      */
