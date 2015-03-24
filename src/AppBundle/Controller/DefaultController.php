@@ -70,7 +70,13 @@ class DefaultController extends Controller
     /*
      * A2
      */
-    
+    /**
+    * @Route("/amoniaczki.html", name="amoniaczki")
+    */
+    public function amoniaczkiAction()
+    {
+        return $this->render('default/amoniaczki.html.twig');
+    }
     /*
      * L1
      */
