@@ -40,6 +40,13 @@ class DefaultController extends Controller
     /*
      * R1
      */
+    /**
+    * @Route("/grzanki.html", name="grzanki")
+    */
+    public function grzankiAction()
+    {
+        return $this->render('default/grzanki.html.twig');
+    }
     /*
      * R2
      */
