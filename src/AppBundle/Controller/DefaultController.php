@@ -66,9 +66,15 @@ class DefaultController extends Controller
     public function jajkaZapiekaneAction()
     {
         return $this->render('default/jajka-zapiekane.html.twig');
-    }
+    }   
     /*
      * L2
      */
-
+   /**
+    * @Route("/zupa-z-kurczaka.html", name="zupa-z-kurczaka")
+    */
+    public function zupaZKurczakaAction()
+    {
+        return $this->render('default/zupa-z-kurczaka.html.twig');
+    }
 }
