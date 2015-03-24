@@ -50,6 +50,13 @@ class DefaultController extends Controller
     /*
      * R2
      */
+   /**
+    * @Route("/kocie-oczka.html", name="kocie-oczka")
+    */
+    public function kocieoczkaAction()
+    {
+        return $this->render('default/kocie-oczka.html.twig');
+    }
     /*
      * A1
      */
