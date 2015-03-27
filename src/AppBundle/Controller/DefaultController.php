@@ -37,6 +37,15 @@ class DefaultController extends Controller
     /*
      * P2
      */
+    
+     /**
+    * @Route("/makaronowa.html", name="makaronowa")
+    */
+    public function makaronowaAction()
+    {
+        return $this->render('default/makaronowa.html.twig');
+    }
+    
     /*
      * R1
      */
